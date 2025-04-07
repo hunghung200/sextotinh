@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Làm ny tớ nhá? Tớ yêu cậu?</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Ẩn trang "Yes" ban đầu */
+        #yesPage {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Trang chính (Proposal) -->
+    <div id="proposalPage" class="container">
+        <h1>Làm ny tớ nhá? Tớ yêu cậu?</h1>
+        <div class="buttons">
+            <button class="yes-button" onclick="handleYesClick()">Yes</button>
+            <button class="no-button" onclick="handleNoClick()">No</button>  
+        </div>
+        <div class="gif_container">
+            <img src="https://imagex1.sx.cdn.live/images/pinporn/2020/03/19/22745560.gif" alt="Gif vui">
+        </div>
+    </div>
+
+    <!-- Trang đồng ý (Yes) -->
+    <div id="yesPage" class="container">
+        <h1 class="header_text">Biết bạn đồng ý mà 😍😍🥰</h1>
+        <div class="gif_container">
+            <img src="https://imagex1.sx.cdn.live/images/pinporn/2020/03/15/22729404.gif" alt="Gif vui">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
