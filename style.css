@@ -214,6 +214,12 @@ body {
     inset 0 0 0.5em 0.25em var(--glow-color);
 
   }
+.gif_container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
   
 
 
