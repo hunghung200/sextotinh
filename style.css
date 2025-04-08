@@ -18,7 +18,7 @@ body {
     color: #d32f2f;
   }
   
-  .yes-button {
+ .yes-button {
 
     --glow-color: rgb(9, 255, 66);
 
@@ -214,7 +214,8 @@ body {
     inset 0 0 0.5em 0.25em var(--glow-color);
 
   }
-.gif_container img {
+
+ .gif_container img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
