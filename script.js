@@ -23,7 +23,7 @@ function handleNoClick() {
 }
 
 function handleYesClick() {
-    // Ẩn trang Proposal và hiện trang Yes
+  
     document.getElementById("proposalPage").style.display = "none";
     document.getElementById("yesPage").style.display = "block";
 }
